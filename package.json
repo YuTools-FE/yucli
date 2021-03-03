@@ -1,9 +1,9 @@
 {
   "name": "@yuqing521/yucli",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Develop your cli from zero .",
   "bin": {
-    "yucli": "bin/yucli"
+    "yucli": "./bin/yucli.js"
   },
   "main": "index.js",
   "scripts": {
