@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 const path = require('path');
 const fse = require('fs-extra');
 const { INJECT_FILES } = require('./constants');
