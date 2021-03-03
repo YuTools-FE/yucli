@@ -1,6 +1,6 @@
 {
-  "name": "yucli",
-  "version": "1.0.0",
+  "name": "@yuqing521/yucli",
+  "version": "0.1.0",
   "description": "Develop your cli from zero .",
   "bin": {
     "yucli": "bin/yucli"
