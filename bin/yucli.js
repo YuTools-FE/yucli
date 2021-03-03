@@ -7,5 +7,5 @@ logPackageVersion();
 
 program
     .usage('<command> [options]')
-    .command('init [name]', 'init a project')
+    .command('create [name]', 'init a project')
     .parse(process.argv);

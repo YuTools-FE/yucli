@@ -132,7 +132,7 @@ Project.prototype.generate = function () {
 
             // git 初始化
             console.log();
-            const gitInitSpinner = ora(`cd ${chalk.green.bold(projectName)}目录, 执行 ${chalk.green.bold('git init')}`);
+            const gitInitSpinner = ora(`cd ${chalk.green.bold(projectName)} 目录, 执行 ${chalk.green.bold('git init')}`);
             gitInitSpinner.start();
 
             const gitInit = exec('git init');
@@ -162,6 +162,7 @@ Project.prototype.generate = function () {
                         console.log();
                         console.log(chalk.green('创建项目成功！'));
                         console.log(chalk.green('Let\'s Coding吧！嘿嘿😝'));
+                        
                     }
                 })
             })
