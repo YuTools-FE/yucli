@@ -1,0 +1,37 @@
+{
+  "name": "yucli",
+  "version": "1.0.0",
+  "description": "Develop your cli from zero .",
+  "bin": {
+    "yucli": "bin/yucli"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuqing521/yucli.git"
+  },
+  "keywords": [
+    "cli"
+  ],
+  "author": "yuqing521",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yuqing521/yucli/issues"
+  },
+  "homepage": "https://github.com/yuqing521/yucli#readme",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "commander": "^7.1.0",
+    "download-git-repo": "^3.0.2",
+    "fs-extra": "^9.1.0",
+    "handlebars": "^4.7.7",
+    "inquirer": "^8.0.0",
+    "log-symbols": "^4.0.0",
+    "mem-fs": "^1.2.0",
+    "mem-fs-editor": "^8.0.0",
+    "ora": "^5.3.0"
+  }
+}
